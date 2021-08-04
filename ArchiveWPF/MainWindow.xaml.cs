@@ -20,24 +20,21 @@ namespace ArchiveWPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        public string str;
-        public string path;
-        public string outname;
-        public List<string> argv;
         public ArchiveWrapper wrap;
         public MainWindow()
         {
             InitializeComponent();
+            wrap = new ArchiveWrapper();
         }
 
         private void SingleFile_Click(object sender, RoutedEventArgs e)
         {
-            wrap.writeArchiveSingle(str, path, argv, outname);
+            wrap.writeArchiveSingle();
         }
 
         private void Directory_Click(object sender, RoutedEventArgs e)
         {
-            wrap.writeArchiveDirectory(str, path, argv, outname);
+            wrap.writeArchiveDirectory();
         }
     }
 }
