@@ -13,5 +13,10 @@
         <Button x:Name="AddFile" Content="Add file" HorizontalAlignment="Left" Width="87" Margin="571,240,0,0" Height="31" FontSize="16" VerticalAlignment="Top" Click="AddFile_Click"/>
         <Button x:Name="Draw" Content="Draw" HorizontalAlignment="Left" Width="87" Margin="144,326,0,0" Height="31" FontSize="16" VerticalAlignment="Top" Click="Draw_Click"/>
         <Button x:Name="Extract" Content="Extract" HorizontalAlignment="Left" Width="87" Margin="571,326,0,0" Height="31" FontSize="16" VerticalAlignment="Top" Click="Extract_Click"/>
+        <Button x:Name="SelectFile" Content="Select file" HorizontalAlignment="Left" Width="94" Margin="144,240,0,0" Height="31" FontSize="16" VerticalAlignment="Top" Click="File_Click"/>
+        <Button x:Name="Add" Content="Add" HorizontalAlignment="Left" Width="87" Margin="352,240,0,0" Height="31" FontSize="16" RenderTransformOrigin="1.78,0.397" VerticalAlignment="Top" Click="Dir_Click"/>
+        <Button x:Name="SelectArchive" Content="select archive" HorizontalAlignment="Left" Width="101" Margin="557,240,0,0" Height="31" FontSize="16" VerticalAlignment="Top" Click="Add_Click"/>
+        <Button x:Name="ArchiveSize" Content="Archie size" HorizontalAlignment="Left" Width="87" Margin="144,240,0,0" Height="31" FontSize="16" VerticalAlignment="Top" Click="ArchiveSize_Click"/>
+        <Button x:Name="FileSize" Content="File size" HorizontalAlignment="Left" Width="87" Margin="571,240,0,0" Height="31" FontSize="16" VerticalAlignment="Top" Click="FileSize_Click"/>
     </Grid>
 </Window>

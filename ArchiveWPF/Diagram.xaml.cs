@@ -43,7 +43,7 @@ namespace ArchiveWPF
                 ColumnDefinition colDef = new ColumnDefinition();
                 myGrid.ColumnDefinitions.Add(colDef);
 
-                for(int j = 0; j < 3; j++)
+                for (int j = 0; j < 3; j++)
                 {
                     RowDefinition rowDef = new RowDefinition();
                     myGrid.RowDefinitions.Add(rowDef);
@@ -53,7 +53,7 @@ namespace ArchiveWPF
                 wrap.height[i] += 1;
                 _placeSingleColorColumn(myGrid, color, wrap.height[i], i, 13);
             }
-            
+
             for (int i = 0; i < wrap.num; ++i) tmp += wrap.size[i] + ",";
 
             aLabels = tmp.Split(',');
