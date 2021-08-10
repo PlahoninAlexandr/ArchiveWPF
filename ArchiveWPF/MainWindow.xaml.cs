@@ -36,5 +36,22 @@ namespace ArchiveWPF
         {
             wrap.writeArchiveDirectory();
         }
+
+        private void AddFile_Click(object sender, RoutedEventArgs e)
+        {
+            SecondWindow win2 = new SecondWindow();
+            win2.ShowDialog();
+        }
+
+        private void Extract_Click(object sender, RoutedEventArgs e)
+        {
+            wrap.extractArchive();
+        }
+
+        private void Draw_Click(object sender, RoutedEventArgs e)
+        {
+            ThirdWindow win3 = new ThirdWindow();
+            win3.ShowDialog();
+        }
     }
 }

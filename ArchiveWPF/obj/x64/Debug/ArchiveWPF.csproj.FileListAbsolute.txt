@@ -12,4 +12,10 @@ C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.cspr
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.csproj.CopyComplete
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.exe
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.pdb
+C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\SecondWindow.g.cs
+C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\SecondWindow.baml
+C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ThirdWindow.g.cs
+C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ThirdWindow.baml
+C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\FourthWindow.g.cs
+C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\FourthWindow.baml
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.csproj.AssemblyReference.cache
