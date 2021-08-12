@@ -5,15 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ArchiveWPF"
         mc:Ignorable="d"
-        Title="FourthWindow" Height="450" Width="800">
+        Title="Diagram" Height="450" Width="800">
     <Grid>
         <Grid
         Name="myGrid"
         HorizontalAlignment="Stretch"
         VerticalAlignment="Stretch"
-        Width="auto"
-        Height="auto"
-        Margin="10,10,10,10"
+        Width="800"
+        Height="350"
     />
     </Grid>
 

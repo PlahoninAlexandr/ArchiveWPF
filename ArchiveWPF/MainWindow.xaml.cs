@@ -6,12 +6,14 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Interop;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ArchiveCLR;
+using System.Runtime.InteropServices;
 
 namespace ArchiveWPF
 {
@@ -22,6 +24,7 @@ namespace ArchiveWPF
     {
         public ArchiveWrapper wrap;
         Grid grid;
+        public HwndSource hWnd;
         public MainWindow()
         {            
             InitializeComponent();
@@ -82,8 +85,12 @@ namespace ArchiveWPF
         private void ArchiveSize_Click(object sender, RoutedEventArgs e)
         {
             wrap.DoArchiveParam();
+
             FourthWindow win4 = new FourthWindow(wrap);
-            win4.ShowDialog();
+            IntPtr hWnd = new WindowInteropHelper(win4).EnsureHandle();
+            
+            wrap.Draw(hWnd);
+            //win4.Show();
         }
 
         private void FileSize_Click(object sender, RoutedEventArgs e)

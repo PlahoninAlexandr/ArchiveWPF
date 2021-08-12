@@ -8,6 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Interop;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
@@ -26,7 +27,7 @@ namespace ArchiveWPF
         {
             wrap = obj;
             InitializeComponent();
-            Draw();
+            //Draw();
         }
 
         Random random = new Random();
@@ -82,7 +83,7 @@ namespace ArchiveWPF
             {
                 TextBlock block = new TextBlock();
                 block.Text = labels[i];
-                block.HorizontalAlignment = System.Windows.HorizontalAlignment.Center;
+                block.HorizontalAlignment = HorizontalAlignment.Center;
                 Grid.SetColumn(block, i);
                 Grid.SetRow(block, grid.RowDefinitions.Count);
                 grid.Children.Add(block);

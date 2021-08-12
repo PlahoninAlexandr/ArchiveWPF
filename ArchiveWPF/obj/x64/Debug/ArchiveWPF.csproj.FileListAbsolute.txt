@@ -14,3 +14,4 @@ C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.exe
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.pdb
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\Diagram.g.cs
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\Diagram.baml
+C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.csproj.AssemblyReference.cache
