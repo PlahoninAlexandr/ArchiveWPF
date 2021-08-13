@@ -14,6 +14,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ArchiveCLR;
 using System.Runtime.InteropServices;
+using System.Diagnostics;
+using System.Drawing;
 
 namespace ArchiveWPF
 {
@@ -85,12 +87,7 @@ namespace ArchiveWPF
         private void ArchiveSize_Click(object sender, RoutedEventArgs e)
         {
             wrap.DoArchiveParam();
-
-            FourthWindow win4 = new FourthWindow(wrap);
-            IntPtr hWnd = new WindowInteropHelper(win4).EnsureHandle();
-            
-            wrap.Draw(hWnd);
-            //win4.Show();
+            wrap.Draw();
         }
 
         private void FileSize_Click(object sender, RoutedEventArgs e)

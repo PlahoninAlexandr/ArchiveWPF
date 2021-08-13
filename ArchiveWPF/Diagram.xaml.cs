@@ -27,7 +27,7 @@ namespace ArchiveWPF
         {
             wrap = obj;
             InitializeComponent();
-            //Draw();
+            Draw();
         }
 
         Random random = new Random();

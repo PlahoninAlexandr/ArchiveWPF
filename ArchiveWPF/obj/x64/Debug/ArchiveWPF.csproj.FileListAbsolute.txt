@@ -1,9 +1,11 @@
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\bin\x64\Debug\ArchiveWPF.exe
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\bin\x64\Debug\ArchiveWPF.pdb
+C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\Diagram.g.cs
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\MainWindow.g.cs
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\App.g.cs
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF_MarkupCompile.cache
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF_MarkupCompile.lref
+C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\Diagram.baml
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\MainWindow.baml
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.g.resources
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.Properties.Resources.resources
@@ -12,6 +14,4 @@ C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.cspr
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.csproj.CopyComplete
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.exe
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.pdb
-C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\Diagram.g.cs
-C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\Diagram.baml
 C:\Users\Mi Notebook\Desktop\ArchiveWPF\ArchiveWPF\obj\x64\Debug\ArchiveWPF.csproj.AssemblyReference.cache
