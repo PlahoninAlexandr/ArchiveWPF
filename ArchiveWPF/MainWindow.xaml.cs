@@ -19,9 +19,6 @@ using System.Drawing;
 
 namespace ArchiveWPF
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public ArchiveWrapper wrap;
@@ -76,12 +73,12 @@ namespace ArchiveWPF
 
         private void Dir_Click(object sender, RoutedEventArgs e)
         {
-            wrap.selectArchive();
+            wrap.addFileInArchive();
         }
 
         private void Add_Click(object sender, RoutedEventArgs e)
         {
-            wrap.addFileInArchive();
+            wrap.selectArchive();
         }
 
         private void ArchiveSize_Click(object sender, RoutedEventArgs e)
